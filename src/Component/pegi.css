@@ -1,0 +1,16 @@
+.button{
+    display: flex;
+    justify-content: space-around;
+}
+
+.b{
+    width: 150px;
+    height: 40px;
+    font-size: 30px;
+    border-radius: 20px;
+    background-color: grey;
+    color: bisque;
+}
+.b:hover{
+    background-color: aqua;
+}

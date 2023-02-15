@@ -1,0 +1,90 @@
+body{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.inputhandle{
+     display: flex;
+     justify-content:center;
+    
+}
+#inputhandle{
+    width: 50%;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight:800;
+}
+.headimage{
+    width: 100%;
+    height: 350px;
+    padding: 0px;
+    margin: 0px;
+}
+.containor{
+    border: 2px solid gray;
+    border-radius: 10px;
+    /* padding: 10px; */
+    margin: 5px;
+    margin-left: 10px;
+    /* margin-right: 15px; */
+    /* margin-top: 30px; */
+    margin-bottom: 20px;
+    width: 310px;
+    height: 350px;
+    background-color: grey;
+
+}
+.movie{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px;
+    padding: 10px;
+    
+}
+.card{
+    width: 310px;
+    height: 250px;
+    transition: 2s;
+    /* padding: 10px; */
+}
+.card:hover{
+    border-radius: 10px;
+transform: scale(1.1);
+}
+
+#rating{
+    width: 100px;
+    height: 25px;
+    border: 0px solid;
+}
+.name{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
+
+
+
+@media only screen and (max-width: 1050px){
+    .movie{
+        margin-left: 90px;
+    }
+}
+@media only screen and (max-width: 750px){
+    .movie{
+        margin-left: 30px;
+    }
+}
+@media only screen and (max-width: 540px){
+    .movie{
+        margin-left: 80px;
+    }
+}
+@media only screen and (max-width: 480px){
+    .movie{
+        margin-left: 10px;
+    }
+}

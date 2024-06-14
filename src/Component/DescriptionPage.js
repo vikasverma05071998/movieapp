@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import { useParams } from 'react-router-dom'
 import { fetchmovies } from '../reducerSlice'
 
-import './view.css'
+// import './view.css'
 export default function DescriptionPage() {
     const dispatch = useDispatch()
     useEffect(()=>{

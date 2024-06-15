@@ -11,7 +11,6 @@ export default function Movie() {
   useEffect(() => {
     let fetchData = async () => {
       let response = await axios.get('https://api.themoviedb.org/3/trending/movie/day?api_key=29b9d662eda4cb4c2722b797b8673c36')
-    //  let response = await axios.get('https://developers.themoviedb.org/3/find/find-by-id')
       console.log(response.data)
       setData(response.data)
 
